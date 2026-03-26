@@ -1,0 +1,13 @@
+package Model
+
+import com.example.foodapp.R
+
+object FoodSource {
+    val dummyFood = listOf(
+        Food("Nasi Goreng", "Nasi goreng spesial", 15000, R.drawable.nasigoreng),
+        Food("Mie Ayam", "Mie ayam enak", 12000, R.drawable.mieayam),
+        Food("Sate Ayam", "Sate bumbu kacang", 20000, R.drawable.sate),
+        Food("Bakso", "Bakso kuah hangat", 13000, R.drawable.bakso),
+        Food("Ayam Geprek", "Pedas mantap", 18000, R.drawable.ayamgeprek)
+    )
+}
